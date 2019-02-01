@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   }
   s.source_files   = 'Classes/*.{h,m}'
   s.preserve_paths = 'FrameworkLocation'
-  s.vendored_frameworks = 'FrameworkLocation/BananaLib/BananaLib.framework'
+  s.vendored_frameworks = 'FrameworkLocation/vendor/vendor.framework'
 end
