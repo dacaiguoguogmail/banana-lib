@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     :type => 'MIT',
     :text => 'Permission is hereby granted ...'
   }
-  s.source_files   = 'Classes/*.{h,m}'
+  s.source_files   = ''
   s.preserve_paths = 'FrameworkLocation'
   s.vendored_frameworks = 'FrameworkLocation/vendor/vendor.framework'
 end
